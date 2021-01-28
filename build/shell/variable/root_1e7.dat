@@ -1,0 +1,4 @@
+MAC="../run_1e7.mac"
+OFN="../outdate/exe_1e7.dat"
+INF="../input_file/test_all_10000000.dat"
+RFN="test_1e7"

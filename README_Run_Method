@@ -1,0 +1,24 @@
+How to run
+
+1. make directory
+$ mkdir build
+
+2. change directory
+$ cd build
+
+3. cmake
+$ cmake ..
+
+4. compile
+$ make
+
+5. run!
+$ ./main mac/run_1e4.mac root_1e4.dat input_file/test.dat
+(Usage: ./main3 InputMacro OutputFile InPrimaryEnergyFile)
+or 
+$ ./main mac/vis_DAWNFILE.mac
+$ ./main mac/vis_OGLIX.mac
+to show geometry
+or
+$ cd shell
+$ sh exe_1e6.sh

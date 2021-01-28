@@ -1,0 +1,4 @@
+/vis/open DAWNFILE
+/vis/drawVolume
+/vis/viewer/set/viewpointThetaPhi 90 0
+/run/beamOn 1

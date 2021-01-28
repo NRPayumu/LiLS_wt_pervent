@@ -1,0 +1,26 @@
+How to run
+
+1. change directory
+$ cd build
+
+  1.2. create input_file
+  $ cd input_file
+  $ root -l Gene_hist.cc'("test",10000000)' 2>E_nu.dat
+  $ cd ../
+
+2. cmake
+$ cmake ../
+
+4. compile
+$ make
+
+5. run!
+$ ./main mac/run_1e4.mac root_1e4.dat input_file/test.dat
+(Usage: ./main3 InputMacro OutputFile InPrimaryEnergyFile)
+or
+$ ./main mac/vis_DAWNFILE.mac
+$ ./main mac/vis_OGLIX.mac
+to show geometry
+or
+$ cd shell
+$ sh exe_1e4.sh
